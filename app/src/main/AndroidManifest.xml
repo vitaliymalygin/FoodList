@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vitaliy.foodlist">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.vitaliy.foodlist.FoodCategory"
+            android:label="@string/app_name"
+            />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    </application>
+
+</manifest>
